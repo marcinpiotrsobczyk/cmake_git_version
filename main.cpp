@@ -4,6 +4,6 @@
 
 
 int main() {
-    std::cout << cgv::version << std::endl;
+    std::cout << "git version is: `" << cgv::version << "`\n";
     return 0;
 }
